@@ -2,6 +2,71 @@
     font-family: roboto, arial;
 }
 
+.header, .first-section, .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-list, .title-subtext {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.title-signup-button, .call-to-action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: 0px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+
 .title-image {
     width: 500px;
 }
