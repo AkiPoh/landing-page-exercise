@@ -2,7 +2,8 @@
     font-family: roboto, arial;
 }
 
-.header, .first-section, .footer {
+
+.header, .first-section, .footer, .dark {
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -23,7 +24,7 @@
     color: #F9FAF8;
 }
 
-.title-signup-button, .call-to-action-button {
+.title-signup-button, .call-to-action-button, .fourth-section {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
@@ -58,19 +59,124 @@
 ul {
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    
 }
+
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    padding: 4px 0px;
 }
 
 
 
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 100px;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 16px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 100px;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.left {
+    flex: 2;
+    align-self: center;
+}
+
 .title-image {
-    width: 500px;
+    flex: 1;
+    max-width: 500px;
+}
+h1 {
+    margin-bottom: 8px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 8px 100px;
+}
+
+.cards {
+    display: flex;
+    gap: 75px;
+}
+
+.card {
+    flex: 1;
 }
 
 .card-image {
-    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.third-section {
+    padding: 8px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-source {
+    align-self: flex-end;
+}
+
+.fourth-section {
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action-subtext {
+    font-weight: normal;
+    margin-top: 8px;
+}
+.call-to-action-title {
+    margin-bottom: 0px;
+}
+.call-to-action-button {
+    border: 2px solid rgb(220, 220, 220);
+}
+
+.footer {
+    padding: 25px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.list-photo-credits {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
